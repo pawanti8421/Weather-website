@@ -1,7 +1,7 @@
 Overview:
 
 This project is a dynamic and interactive weather website created using HTML, CSS, and JavaScript. 
-It leverages the OpenWeather API to fetch real-time weather data for any location in the world. 
+It leverages the OpenWeathermap API to fetch real-time weather data for any location in the world. 
 The site is designed to provide users with an intuitive and visually appealing interface to check current weather conditions, forecasts, and other meteorological information.
 
 
@@ -27,7 +27,8 @@ HTML: Structures the content and layout of the website.
 CSS: Styles the website, ensuring it is visually appealing and user-friendly. This includes the use of Flexbox and Grid for layout, as well as media queries for responsiveness.
 
 JavaScript: Handles the functionality and interactivity of the website. This includes fetching data from the OpenWeather API, updating the DOM with weather information, and managing user interactions.
-OpenWeather API: Provides the weather data used by the website, including current conditions and forecasts.
+
+OpenWeathermap API: Provides the weather data used by the website, including current conditions and forecasts.
 
 
 User Experience:
@@ -39,7 +40,7 @@ Weather details are presented in a well-organized manner, with icons and colors 
 
 How It Works:
 
-Fetching Data: When a user enters a location or the site detects the user's geolocation, a request is sent to the OpenWeather API.
+Fetching Data: When a user enters a location or the site detects the user's geolocation, a request is sent to the OpenWeathermap API.
 
 Processing Data: The received data is processed to extract relevant information such as temperature, weather description, and forecast details.
 
